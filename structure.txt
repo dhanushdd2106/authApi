@@ -1,0 +1,10 @@
+fastapi_auth_project/
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── models.py
+│   ├── schemas.py
+│   ├── auth.py
+│   └── database.py
+├── .env
+├── requirements.txt
