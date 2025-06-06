@@ -5,6 +5,6 @@ class UserRegister(BaseModel):
     email : EmailStr
     password : str
     
-class Tokem(BaseModel):
+class Token(BaseModel):
     access_token:str
     token_type:str
