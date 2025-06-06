@@ -1,0 +1,7 @@
+fastapi
+pydantic
+beanie
+motor
+python-dotenv
+passlib[bcrypt]
+python-jose
