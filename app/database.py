@@ -6,8 +6,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-Mongo_Url = os.getenv("MONGO_URL")
+Mongo_url = os.getenv("MONGO_URL")
 
-async def init_db():
-    client = AsyncIOMotorClient(Mongo_Url)
+async def db_init():
+    client = AsyncIOMotorClient(Mongo_url)
     await init_beanie(database=client["fastapi_db"],document_models=[User])
